@@ -13,6 +13,7 @@ function selectionSort(arr) {
 
         temp = arr[i];
 
+
         arr[i] = arr[minIx];
         arr[minIx] = temp;
       }
